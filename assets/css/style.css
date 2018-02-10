@@ -1,0 +1,299 @@
+html {
+    height: 100%;
+    background-image: url("../images/body-spiration-light.png");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+}
+
+header{
+    /*width: 100%;*/
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    clear: both;
+}
+
+#headerContent{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: relative;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px;
+    color: #4aaaa5;
+    font-weight: bold;    
+}
+
+h3 {
+    font-size: 1.25em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    padding: 20px;    
+}
+
+hr {
+    color: #cccccc;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: inset;
+    border-width: 0;
+    height: 2px;
+    background-color: #cccccc;
+}
+
+
+#fullName {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    font-weight: bold;  
+}
+
+#navMain{
+    float: right;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 4em;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+#index {
+    margin-right: 10px;
+}
+
+#portfolio {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#contact {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+#gitHub:hover, #linkedIn:hover, #stackOverflow:hover {
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+section {
+    clear: both;
+    width: 648px;
+    border: 1px solid #dddddd;
+    float: left;
+    background-color: #ffffff;
+}
+
+aside {
+    width: 268px;
+    float: right;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+
+}
+
+img {
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+.content {
+    display: flex;
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    width: 100%;
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: .75em;
+}
+
+#mainContent {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #777777;
+    font-size: 1em;
+    line-height: 2.0em;
+    position: relative;
+    top: -8px;
+}
+
+#navConnect{
+    clear: both;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 4em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#gitHub {
+    align-self: auto;
+    padding: 0;
+    padding-right: 18px;
+    padding-bottom: 40px;
+}
+
+#linkedIn {
+    align-self: auto;
+    padding: 0;
+    padding-right: 18px;
+    padding-bottom: 40px;
+}
+
+#stackOverflow {
+    align-self: auto;
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+.portImg {
+    padding: 0;
+    margin: 0;
+}
+
+.portContent {
+    position: relative;
+    padding: 0;
+    margin: 0px 20px 40px 20px;
+    float: left;
+}
+
+.portText {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    bottom: 10px;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+    width: 284px;  
+    text-align: center;
+}
+
+form, input, select, textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size   : 1em;
+    color: #777777;
+  }
+
+  #contactFormText {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .formText {
+    font-size: 0.8em;
+    padding: 10px;
+    width: 586px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    outline: none;
+  }
+
+  .formText:focus, .messageText:focus {
+    border: 2px solid #4aaaa5;
+  }
+
+  textarea {
+    height: 150px;
+    width: 603px;
+    margin-top: 5px;
+  }
+
+  .messageText {
+    font-size: 0.8em;
+    padding: 10px;
+    width: 586px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    outline: none;     
+  }
+
+  #contactSubmit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    font-size: 1em;
+    border: 0;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  #contactSubmit:hover {
+      background-color: #ffffff;
+      color: #4aaaa5;
+      border: 2px solid #4aaaa5;
+      padding: 8px 28px 8px 28px;
+  }
+
+  #submitCont {
+      margin-bottom: 40px;
+  }
+
+
+
+
