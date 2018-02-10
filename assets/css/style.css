@@ -330,6 +330,37 @@ form, input, select, textarea {
   }
 
   @media screen and (max-width: 768px) {
+    #headerContent, #mainContent {
+        width: 728px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    section, aside {
+        width: 728px;
+    }
+
+    aside {
+        margin-top: 20px;
+    }
+
+    #profile-1 {
+        display: block;
+    }
+
+    #profile-2 {
+        display: none;
+    }
+
+    .portContent, .portImg, .portText {
+        width: 334px;
+        margin-right: 0px;
+    } 
+
+
+    .formText, .messageText {
+        width: 668px;
+    }
 
   }
 
