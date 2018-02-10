@@ -284,18 +284,18 @@ form, input, select, textarea {
   }
 
   #contactSubmit:hover {
-      background-color: #ffffff;
-      color: #4aaaa5;
-      border: 2px solid #4aaaa5;
-      padding: 8px 28px 8px 28px;
+    background-color: #ffffff;
+    color: #4aaaa5;
+    border: 2px solid #4aaaa5;
+    padding: 8px 28px 8px 28px;
   }
 
   #submitCont {
-      margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 
-  #profile-2 {
-        display: none;
+  #profile-2, #profile-3 {
+    display: none;
   }
 
   @media screen and (max-width: 980px) {
@@ -361,11 +361,54 @@ form, input, select, textarea {
     .formText, .messageText {
         width: 668px;
     }
-
   }
 
   @media screen and (max-width: 640px) {
+        
+    #headerContent, #fullName, #navMain {
+        width: 640px;
+    }
 
+    #mainContent, section, aside {
+        width: 600px;
+    }
+
+    #headerContent {
+        margin: 0px;
+    }
+
+    #fullName, #navMain {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    aside {
+        margin-top: 20px;
+    }
+
+    #profile-1 {
+        display: none;
+    }
+
+    #profile-2 {
+        display: none;
+    }
+
+    #profile-3 {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .portContent, .portImg, .portText {
+        width: 560px;
+        margin-right: 0px;
+    } 
+
+
+    .formText, .messageText {
+        width: 538px;
+    }
   }
 
 
