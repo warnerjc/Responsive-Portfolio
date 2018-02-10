@@ -294,6 +294,48 @@ form, input, select, textarea {
       margin-bottom: 40px;
   }
 
+  #profile-2 {
+        display: none;
+  }
+
+  @media screen and (max-width: 980px) {
+    #headerContent, #mainContent {
+        width: 768px;
+    }
+
+    section {
+        width: 456px;
+    }
+    
+    aside {
+        width: 268px;  
+    }
+
+    #profile-1 {
+        display: none;
+    }
+
+    #profile-2 {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .portContent, .portImg, .portText {
+        width: 416px;
+    }
+
+    .formText, .messageText {
+        width: 394px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+  }
+
+  @media screen and (max-width: 640px) {
+
+  }
 
 
 
